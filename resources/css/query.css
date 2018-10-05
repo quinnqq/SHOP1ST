@@ -1,0 +1,135 @@
+@media (max-width: 575.98px) {
+    body {
+        padding-bottom: 10vh;
+    }
+    .topNav, .bigNav, .footNavBox{
+        display: none;
+    }
+    .newsBox {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .outterNewsBox {
+        width: 100%;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .aboutUsBox {
+        width: 100%;
+    }
+    .aboutUsImgBox {
+        display: none;
+    }
+    .aboutUsTextBox {
+        width: 100%;
+    }
+    .outterProductBox {
+        width: 100%;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .outterProductBox .productViewMore .productViewMoreText {
+        width: 60%;
+        height: 52%;
+    }
+    .contact {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .socialLinkBox {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .qrCode {
+        width: 30%;
+    }
+    .contactTextBox {
+        width: 100%;
+        margin-left: 0;
+    }
+    .pageImgBox{
+        width: 100%;
+        overflow: hidden;
+    }
+    .pageTextBox{
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        padding-bottom: 10vh;
+    }
+    .topNav, .bigNav, .footNavBox{
+        display: none;
+    }
+    .newsBox {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .outterNewsBox {
+        width: 100%;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .aboutUsBox {
+        width: 100%;
+    }
+    .aboutUsImgBox {
+        display: none;
+    }
+    .aboutUsTextBox {
+        width: 100%;
+    }
+    .outterProductBox {
+        width: 100%;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .outterProductBox .productViewMore .productViewMoreText {
+        width: 60%;
+        height: 52%;
+    }
+    .contact {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .socialLinkBox {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .qrCode {
+        width: 30%;
+    }
+    .contactTextBox {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .smallNavTop, .smallNavHeight, .smallMenuBox, .smallNavBottom, .subList{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .smallNavTop, .smallNavHeight, .smallMenuBox, .smallNavBottom, .subList{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .smallNavTop, .smallNavHeight, .smallMenuBox, .smallNavBottom, .subList {
+        display: none;
+    }
+    .aboutUsTextBox {
+        padding: 60px;
+    }
+    .outterProductBox .productViewMore .productViewMoreText {
+        width: 60%;
+        height: 50%;
+    }
+}
